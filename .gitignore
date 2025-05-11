@@ -1,0 +1,25 @@
+# Ignore virtual environments
+myenv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore system files (MacOS specific)
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore Docker-related files
+docker-compose.yml
+Dockerfile
+.docker/
+
+# Ignore IDE/Editor specific settings (if applicable)
+.vscode/
+.idea/
+
